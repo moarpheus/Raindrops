@@ -7,7 +7,6 @@ class Raindrops
       5 => "Plang",
       7 => "Plong",
     }.map {|key, value| value if (number % key == 0)}.join()
-    return result unless result.empty?
-    number.to_s
+    result.empty? ? number.to_s : result
   end
 end
