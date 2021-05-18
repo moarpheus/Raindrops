@@ -1,5 +1,3 @@
-require 'byebug'
-
 class Raindrops
   def self.convert number 
     result = {
